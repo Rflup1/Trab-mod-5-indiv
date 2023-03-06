@@ -3,13 +3,13 @@
 <h4># Explicando o codigo </h4>
 
   
-  Este código é um programa de interface de linha de comando (CLI) simples que permite ao usuário manipular uma lista de propriedades CSS. O programa usa o pacote "inquirer" para solicitar ao usuário uma lista de opções e receber entrada a partir da linha de comando.
+Este código é um exemplo de um programa de linha de comando que utiliza a biblioteca Inquirer.js para realizar interações com o usuário. O programa permite que o usuário visualize, adicione e remova itens de uma lista de propriedades CSS.
 
-A função principal do programa é "listaCSS()", que apresenta ao usuário uma lista de opções para manipular a lista de propriedades CSS. O programa tem quatro opções: (1) "Exibir lista CSS" exibe a lista atual de propriedades CSS, (2) "Adicionar item a lista CSS" permite que o usuário adicione uma nova propriedade CSS à lista, (3) "Remover itens da lista CSS" permite que o usuário remova uma propriedade CSS da lista e (4) "Sair" encerra o programa.
+Ao ser executado, o programa apresenta um menu de opções ao usuário, que pode escolher entre exibir a lista atual de propriedades CSS, adicionar um novo item, remover um item existente ou sair do programa.
 
-O programa também inclui três funções auxiliares: "back()", "exibLista()" e "sair()". A função "back()" solicita ao usuário que retorne ao menu principal ou saia do programa. A função "exibLista()" exibe a lista atual de propriedades CSS e solicita ao usuário que retorne ao menu principal. A função "sair()" exibe a lista atual de propriedades CSS e encerra o programa.
+Cada opção selecionada pelo usuário chama uma função específica, que realiza as ações correspondentes. Por exemplo, a opção de adicionar um novo item pede para o usuário digitar uma nova propriedade CSS e adiciona essa propriedade à lista, caso ela ainda não exista.
 
-Em geral, este código é um bom exemplo de um programa CLI simples que usa o pacote "inquirer" para solicitar ao usuário entrada e manipular dados.
+O programa também utiliza a biblioteca Chalk.js para colorir o texto de saída no console, tornando as informações mais legíveis e atraentes para o usuário.
 
 # Dependencias
 
